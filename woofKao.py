@@ -17,7 +17,27 @@ def personal_task():
         return 'pass'
 
 def team_task(puzzle):
-    pass
+    participants = [("Member1", "PY"), ("Member2", "TH"), ("Member3", "ON")]
+    team = [p for p in participants if p[1] in {"PY", "TH", "ON"}]
+
+    team_has_three_members = len(team) == 3
+
+    unique_codes = set(p[1] for p in team)
+    codes_are_unique = len(unique_codes) == 3
+
+    if team_has_three_members and codes_are_unique:
+        print(f"Team {', '.join(p[0] for p in team)} passed the challenge!")
+        print("Team takes a group photo.")
+    else:
+        print("Not enough participants for a complete team.")
+
+    game_master = "information desk"
+
+    if team_has_three_members and codes_are_unique:
+        print(f"Photo taken with: {', '.join(p[0] for p in team)}")
+        print(f"Go find the game master {game_master}. Challenge passed!")
+    else:
+        print("Not enough participants for a complete team.")
 
 
 def booth_task(unfinished_booths):
