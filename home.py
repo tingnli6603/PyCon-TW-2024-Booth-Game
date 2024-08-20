@@ -2,4 +2,4 @@
 import random
 
 puzzle_list = ['PY', 'TH', 'ON']
-puzzle = random.choice(puzzle_list)
+your_puzzle = random.choice(puzzle_list)
