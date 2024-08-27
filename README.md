@@ -11,16 +11,15 @@ Hello，歡迎來到 PyCon TW 2024，這裡是大地遊戲活動。相信聰明�
 
    （偷偷告訴你🤫 其中一個關卡就是下載 OPass，完成後就可以到大地遊戲櫃台兌換精美小禮物，數量有限，要玩要快！）
 
-   [Google Play 下載點](https://play.google.com/store/apps/details?id=app.opass.ccip&pcampaignid=web_share)
-   [App Store 下載點](https://apps.apple.com/tw/app/opass-app/id1436417025)
+   - [Google Play 下載點](https://play.google.com/store/apps/details?id=app.opass.ccip&pcampaignid=web_share)
+   - [App Store 下載點](https://apps.apple.com/tw/app/opass-app/id1436417025)
 
 2. 遊戲解謎
 
    遊戲任務都藏在程式碼內，任務主要分成「新手任務」、「個人任務」、「團體任務」與「攤位任務」。
 
-   如果完成了「新手任務」、「個人任務」、「團體任務」，請到大地遊戲櫃台請工作人員協助確認是否通關，如果通關則會由工作人員協助在 OPass 蓋上通關章。
-
-   如果完成了「攤位任務」，則由各攤位負責人協助確認是否通關，如果通關則會由該攤位負責人協助在 OPass 蓋上通關章。
+   - 如果完成了「新手任務」、「個人任務」、「團體任務」，請到大地遊戲櫃台請工作人員協助確認是否通關，如果通關則會由工作人員協助在 OPass 蓋上通關章。
+   - 如果完成了「攤位任務」，則由各攤位負責人協助確認是否通關，如果通關則會由該攤位負責人協助在 OPass 蓋上通關章。
 
 4. 抽大獎
 
