@@ -9,7 +9,7 @@ def newbie_task():
     else:
         return 'fail'
 
-def graffiti_task():
+def personal_task():
 
     with open('graffiti_wall.txt', 'w') as f:
         message = 'Anything you want to say about PyCon TW.'
@@ -59,7 +59,7 @@ def booth_task():
 
 def task():
     newbie_task_status   = newbie_task()
-    graffiti_task_status = graffiti_task()
+    personal_task_status = personal_task()
     team_task_status     = team_task(your_puzzle)
     booth_task_status    = booth_task()
 
