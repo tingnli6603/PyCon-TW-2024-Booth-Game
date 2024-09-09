@@ -5,9 +5,9 @@ from home import your_puzzle
 
 def newbie_task():
     if pouchy.download_Opass():
-        return 'pass'
+        return True
     else:
-        return 'fail'
+        return False
 
 def personal_task():
 
@@ -23,9 +23,9 @@ def personal_task():
         f.write("@pycon.tw")
 
     if os.path.isfile('social_media.txt'):
-        return 'pass'
+        return True
     else:
-        return 'fail'
+        return False
 
 def team_task(your_puzzle):
     members = ['PY', 'TH', 'ON']
@@ -36,15 +36,15 @@ def team_task(your_puzzle):
         photo_content['people']       = len(members)
         photo_content['background']   = 'graffiti_wall'
 
-    for key, value in photo_content.items():
+    for _, value in photo_content.items():
         if value is None:
-            return 'fail'
+            return False
 
-    return 'pass'
+    return True
 
 def booth_task():
     sponsor_booths    = ['PSF', 'E.SUN Bank', 'Reuven Lerner']
-    community_booths  = ['D', 'E', 'F']
+    community_booths  = ['OCF', 'COSCUP', 'MOPCON', 'Good Ideas Studio']
     unfinished_booths = sponsor_booths + community_booths
 
     while len(unfinished_booths) > 0:
@@ -53,15 +53,19 @@ def booth_task():
             unfinished_booths.remove(booth)
 
     if len(unfinished_booths) == 0:
-        return 'pass'
+        return True
     else:
-        return 'fail'
+        return False
 
 def task():
-    newbie_task_status   = newbie_task()
-    personal_task_status = personal_task()
-    team_task_status     = team_task(your_puzzle)
-    booth_task_status    = booth_task()
+    task_passed = False
+    task_passed = newbie_task()
+    task_passed = personal_task()
+    task_passed = team_task(your_puzzle)
+    task_passed = booth_task()
+
+    if task_passed:
+        return "Congratulations! You've earned a chance to win big prizes!"
 
 
 if __name__ == "_main_":

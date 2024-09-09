@@ -1,11 +1,11 @@
-def download_Opass():
+def download_OPass():
     '''
-    前往 Google Play 或 App Store 搜尋並下載 OPass App
+    Download the OPass App from Google Play or the App Store.
     '''
     return True
 
 def visit(location):
     '''
-    前往指定地點並完成相關任務
+    Go to the designated location and complete the task.
     '''
     return True
