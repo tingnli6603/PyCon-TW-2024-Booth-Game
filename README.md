@@ -1,4 +1,4 @@
-![大地遊戲封面圖](https://github.com/user-attachments/assets/60160c35-d1d9-474a-bc11-d9a7862a18a2)
+![大地遊戲封面圖](https://github.com/user-attachments/assets/e60f2a6b-c77c-44f8-a132-19d2dcec53ad)
 
 Hello，歡迎來到 PyCon TW 2024，這裡是大地遊戲活動。相信聰明的你一定猜到為什麼你會在 github 的畫面
 
