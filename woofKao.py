@@ -58,15 +58,18 @@ def booth_task():
         return False
 
 def task():
-    task_passed = False
-    task_passed = newbie_task()
-    task_passed = personal_task()
-    task_passed = team_task(your_puzzle)
-    task_passed = booth_task()
+    passed_count = 0
+    if newbie_task():
+        passed_count += 1
+    if personal_task():
+        passed_count += 1
+    if team_task(your_puzzle):
+        passed_count += 1
+    if booth_task():
+        passed_count += 1
 
-    if task_passed:
+    if passed_count == 4:
         return "Congratulations! You've earned a chance to win big prizes!"
-
 
 if __name__ == "_main_":
     task()
